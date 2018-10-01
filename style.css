@@ -1,0 +1,112 @@
+body {
+    margin: 0 5% 0 5%;
+}
+
+.header, .team-info, .team {
+    margin: 3% 0 3% 0;
+}
+
+.person {
+    height: 100px;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 0 1% 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: RGB(225, 226, 230);
+    border-radius: 5px;
+}
+
+.photo, .drag-handle {
+    align-self: center;
+}
+
+.drag-handle {
+    display: none;
+}
+
+.solution, .team-photo, .person-info, .contacts, .institution, .photo {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.photo {
+    width: 15%;
+    justify-content: center;
+}
+
+.team-name, .solution, .team-photo  {
+    width: 25%;
+    justify-content: center;
+}
+
+.leaders, .teammates, .observers {
+    margin: 1% 0 1% 0;
+    padding: 10px 0 10px 0;
+    background-color: RGB(237, 238, 240);
+    border-radius: 5px;
+}
+
+.team-name, .solution, .team-photo  {
+    width: 25%;
+}
+
+.instruction {
+    margin: 1% 0 0 0;
+    font-family: sans-serif;
+    padding: 0.1% 2% 0.1% 2%;
+    background-color: RGB(237, 238, 240);
+    border-radius: 5px;
+}
+
+.name-solution-photo {
+    margin: 1% 0 0 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: RGB(237, 238, 240);
+    border-radius: 5px;
+}
+
+.add-del-btn, .reg-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.add, .del {
+    width: 30px;
+    height: 30px;
+    margin: 0 1% 0 1%;
+    border-radius: 5px;
+}
+
+.reg {
+    margin: 3% 0 5% 0;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.input-label {
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.section-label {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    color: RGB(74, 118, 168);
+}
+
+.subsection-label {
+    font-family: sans-serif;
+    font-size: large;
+    margin: 0 0 0 1.5%;
+}
